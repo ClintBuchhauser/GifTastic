@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GifTastic</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">GIF TASTIC</h1>
+        </div>
+        <h3>Click an animal button, then click the images to animate them!</h3>
+        <div id="animalButtons">
+
+        </div>
+        <br>
+
+        <form>
+            <div class="form-group">
+                <label for="animalSearch">ADD AN ANIMAL</label>
+                <input type="text" class="form-control" id="animalSearch">
+            </div>
+            <button type="submit" class="btn btn-primary" id="animalSearchButton">ADD</button>
+        </form>
+        <br>
+
+        <div id="animalGifs"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
